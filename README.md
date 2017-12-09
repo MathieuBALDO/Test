@@ -8,3 +8,7 @@ Branch done after first commit on the head
 We will test the merge
 
 I edit my file in notepad on the branch I created from Windows GitHub
+
+It seems
+I commited only locally, so I do a second one.
+I want to see what I will see when I will push on github.
