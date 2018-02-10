@@ -24,10 +24,13 @@ Create your local branch to work on it
 To push your new branch on the remote
 	git push origin MyNewBranch
 	
+Modif from githug on the branch
+	
 To retrive the update from remote => this will not impact your working version
 	git fetch
 	git diff MyNewBranch origin\MyNewBranch
-	
+	git merge MyNewBranch origin\MyNewBranch
+	And conflict resolved by editing the file
 
 
 
