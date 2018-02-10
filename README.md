@@ -32,7 +32,7 @@ To retrive the update from remote => this will not impact your working version
 	git merge MyNewBranch origin\MyNewBranch
 	And conflict resolved by editing the file
 
-
+Test TurtoiseGit
 
 Edit master from github to test merge
 
