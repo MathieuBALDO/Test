@@ -1,5 +1,7 @@
 #Git nutshell
 First setup you ssh key
+	https://docs.microsoft.com/en-us/vsts/git/use-ssh-keys-to-authenticate
+	
 	Get the ssh url of your repo (from github button clone or download chose ssh)
 	puttyGen save with Converison Open SSH without passphrase
 	launch a clone will prompt for trusted host this will create a .ssh at the root of your userprofile
@@ -14,6 +16,8 @@ In shell
 	Launch C:\Users\GBS\AppData\Local\Programs\Git\git-cmd.exe
 	Then choose your folder
 	git clone url\repo.git
+	sample git clone git@github.com:MathieuBALDO/Test.git
+	
 	
 
 First commit in init brach
