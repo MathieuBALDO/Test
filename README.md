@@ -16,6 +16,8 @@ In shell
 	git clone url\repo.git
 	
 
+Edit master from github to test merge
+
 First commit in init brach
 
 But I also commit on the head
