@@ -18,7 +18,18 @@ In shell
 	git clone url\repo.git
 	sample git clone git@github.com:MathieuBALDO/Test.git
 	
+Create your local branch to work on it
+	git checkout -b MyNewBranch
+
+To push your new branch on the remote
+	git push origin MyNewBranch
 	
+To retrive the update from remote => this will not impact your working version
+	git fetch
+	git diff MyNewBranch origin\MyNewBranch
+	
+
+
 
 First commit in init brach
 
