@@ -10,6 +10,9 @@ First setup you ssh key
 		Host github.com
 			User git
 			IdentityFile C:\Users\GBS\.ssh\private_mbaldo_git.ssh
+	
+	Then add you key into git to do that open your public key with puttygen and copy/paste the non wirtable part
+	
 
 Now it is ready do a clone
 In shell
