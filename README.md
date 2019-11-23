@@ -12,6 +12,13 @@ First setup you ssh key
 			IdentityFile C:\Users\GBS\.ssh\private_mbaldo_git.ssh
 	
 	Then add you key into git to do that open your public key with puttygen and copy/paste the non wirtable part
+
+git config --global user.name "mathieu.baldo"
+git config --global user.email "mathieu.baldo.adm@gmail.com"
+git config --global push.default simple
+git config --global core.autocrlf true
+git config --global alias.tree 'log --graph --decorate --name-status -all'
+
 	
 
 Now it is ready do a clone
