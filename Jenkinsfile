@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo
-          'Running Build Phase'
+        echo 'Running Build Phase'
       }
     }
     stage('Copy') {
