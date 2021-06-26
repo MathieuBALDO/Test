@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Copy') {
       steps {
-        bat(script: 'toto.cmd', returnStdout: true, label: 'label')
+        bat(script: 'callByJenkins.cmd', returnStdout: true, label: 'label')
       }
     }
 
