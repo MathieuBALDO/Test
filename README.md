@@ -1,5 +1,4 @@
 #Git nutshell
-
 First setup you ssh key
 	https://docs.microsoft.com/en-us/vsts/git/use-ssh-keys-to-authenticate
 	
