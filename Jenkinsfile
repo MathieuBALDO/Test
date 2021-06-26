@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo %date%
         echo %CD%
-        echo "Call callByJenkins.cmd"
+        echo 'Call callByJenkins.cmd'
         bat(script: 'callByJenkins.cmd', returnStdout: true, label: 'label')
       }
     }
