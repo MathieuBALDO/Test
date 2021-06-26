@@ -12,7 +12,7 @@ pipeline {
         echo 'Running Copy'
         //git add --chmod=+x "build.sh"
         sh 'chmod 777 build.sh'
-        sh 'chmod 777 ../.'
+        sh 'chmod -R 777 ../.'
         sh "./build.sh"
       }
     }
