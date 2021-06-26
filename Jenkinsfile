@@ -10,7 +10,8 @@ pipeline {
     stage('Copy') {
       steps {
         echo 'Running Copy'
-        git add --chmod=+x "build.sh"
+        //git add --chmod=+x "build.sh"
+        sh 'chmod 777 build.sh'
         sh "./build.sh"
       }
     }
