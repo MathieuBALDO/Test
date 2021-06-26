@@ -8,6 +8,7 @@ pipeline {
     }
     stage('Copy') {
       steps {
+        echo 'Running Copy Phase'
         bat(script: 'callByJenkins.cmd', returnStdout: true, label: 'label')
       }
     }
